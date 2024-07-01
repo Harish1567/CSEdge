@@ -1,0 +1,16 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Hello", "Good morning", "Good afternoon", "Good evening"],
+            "responses": ["Hello!", "Hi!", "Hey!", "Good morning!", "Good afternoon!", "Good evening!"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "I am leaving", "I have to go"],
+            "responses": ["Goodbye!", "See you later!", "Have a nice day!"],
+            "context_set": ""
+        }
+    ]
+}
